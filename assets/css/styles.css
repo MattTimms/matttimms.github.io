@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(21,21,21);
+    color: rgb(255,255,255);
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+h1, h2 {
+
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+
+}
+
+span.abstract {
+    display: inline-block;
+    max-width: 800px;
+    line-height: 1.4em;
+}
+
+
+hr {
+    margin-top:50px;
+    opacity: 0.7;
+}
+
+h2 {
+    font-family: 'Chivo', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    line-height: 29px;
+    margin-top: 40px;
+
+}
+
+span.work, span.projects, span.education{
+    white-space: normal;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 1.8em ;
+
+}
+
+a {
+    color: rgb(255,255,255);
+    display: inline;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+a:hover {
+    color: rgb(255, 114, 38);
+}
+
+
+strong {
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: rgb(225,225,225);
+
+}
+
+@media (max-width:480px){
+    a {
+        line-height: 2.1em;
+    }
+}
