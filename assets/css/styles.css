@@ -55,11 +55,15 @@ h2 {
 span.work, span.projects, span.education {
     white-space: normal;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
     line-height: 1.8em;
 }
 
-a {
+span.education {
+    margin-bottom: 20px;
+}
+
+a, i {
     color: rgb(255, 255, 255);
     display: inline;
     transition-duration: 0.5s;
@@ -74,7 +78,6 @@ a:hover {
 i {
     font-style: italic;
     letter-spacing: 0.02em;
-    color: rgb(225, 225, 225);
 }
 
 .dash {
@@ -85,21 +88,18 @@ i {
     display: none;
 }
 
-.footer {
+.secret-footer {
     font-size: 12px;
     padding-bottom: 10px;
     opacity: 0.5;
-    display: none;
 }
 
-@media (max-width: 830px) {
+
+@media (max-width: 880px) {
     html, body {
         height: auto;
     }
-}
-
-@media (max-width: 880px) {
-    a {
+    a, i {
         margin-top: 10px;
         display: inline-block;
     }
@@ -109,10 +109,6 @@ i {
     }
 
     .break {
-        display: inline;
-    }
-
-    .footer {
         display: inline;
     }
 }

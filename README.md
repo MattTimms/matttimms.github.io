@@ -5,5 +5,5 @@ A simple personal CV site.
 - [x] link to desired domain name.  
 - [x] make it look reasonable on mobile.  
 - [x] add social buttons.  
-- [ ] add profile pic.  
+- [x] add profile pic.  
 - [ ] forget to update about for several years.  
